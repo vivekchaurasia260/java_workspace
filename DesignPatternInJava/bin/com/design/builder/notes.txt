@@ -1,0 +1,11 @@
+Builder Design Pattern
+
+It is a part of creational design pattern.
+
+It is used when we want to create a complex object.
+
+In this we are creating Builder inner class which has all fields which are present in the main class(i.e, User class)
+and then we have one build() which passes the User object having Builder parameter in it.
+
+If someone calls the build() then it will store all the values of User object and return the obj.
+
